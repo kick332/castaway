@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Castaway</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__row row">
+                    <div class="header__logo logo"></div>
+                    <nav class="header__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="#home" class="menu__link link">Home</a></li>
+                            <li class="menu__item"><a href="#episodes" class="menu__link link">Episodes</a></li>
+                            <li class="menu__item"><a href="#about" class="menu__link link">About</a></li>
+                            <li class="menu__item"><a href="#contact" class="menu__link link">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero" id="home">
+                <div class="hero__container">
+                    <div class="hero__content">
+                        <div class="hero__row row">
+                            <div class="hero__img">
+                                <img src="media/img/hero/IMAGE.jpg" alt="">
+                            </div>
+                            <div class="hero__column column">
+                                <div class="hero__tittle-text">
+                                    Take your podcast to the
+                                    <span class="hero__next">next</span>
+                                    <span class="hero__level">level</span>
+                                </div>
+                                <div class="hero__messengers messengers">
+                                    <div class="messengers__name">Listen on</div>
+                                    <ul class="messengers__list row">
+                                        <li class="messengers__item"><a href="#" class="messengers__link"><img
+                                                    src="media/icon/footer/messenger-1.svg" alt=""></a></li>
+                                        <li class="messengers__item"><a href="#" class="messengers__link"><img
+                                                    src="media/icon/footer/messenger-2.svg" alt=""></a></li>
+                                        <li class="messengers__item"><a href="#" class="messengers__link"><img
+                                                    src="media/icon/footer/messenger-3.svg" alt=""></a></li>
+                                        <li class="messengers__item"><a href="#" class="messengers__link"><img
+                                                    src="media/icon/footer/messenger-4.svg" alt=""></a></li>
+                                        <li class="messengers__item"><a href="#" class="messengers__link"><img
+                                                    src="media/icon/footer/messenger-5.svg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="episodes">
+                <div class="episodes__container">
+                    <div class="episodes__content">
+                        <div class="episodes__row row">
+                            <div class="episodes__tittle" id="episodes">Latest episodes</div>
+                            <button type="button" class="episodes__view">View all episodes</button>
+                        </div>
+                        <div class="episodes__column column">
+                            <div class="episodes__cards card">
+                                <ul class="card__list">
+                                    <li class="card__item item">
+                                        <div class="item__row row"><img loading="lazy" src="media/img/cards/1.png"
+                                                alt="">
+                                            <div class="item__column"><span class="item__categoty">Gear</span><span
+                                                    class="item__number">Episode
+                                                    3</span>
+                                                <div class="card__tittle">Should you get outboard audio gear?</div>
+                                                <p class="card__p">Is hardware really worth it when it comes to
+                                                    podcasting? The answer is...it depends. Here’s our reasons on why
+                                                    you
+                                                    might want to consider picking something up.</p><button
+                                                    type="button" class="episodes__view">View Episode Details</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="card__item item">
+                                        <div class="item__row row"><img loading="lazy" src="media/img/cards/2.png"
+                                                alt="">
+                                            <div class="item__column"><span class="item__categoty">Tips &
+                                                    Tricks</span><span class="item__number">Episode 2</span>
+                                                <div class="card__tittle">Mic tricks to take you to the next level</div>
+                                                <p class="card__p">Stop rolling with those default settings on your
+                                                    mic.
+                                                    These small tweaks will take you from sounding good to great.</p>
+                                                <button type="button" class="episodes__view">View Episode
+                                                    Details</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="card__item item">
+                                        <div class="item__row row"><img loading="lazy" src="media/img/cards/3.png"
+                                                alt="">
+                                            <div class="item__column"><span class="item__categoty">Gear</span><span
+                                                    class="item__number">Episode 1</span>
+                                                <div class="card__tittle">The best microphone under $200</div>
+                                                <p class="card__p">With so many microphones on the market, how are you
+                                                    supposed to know what’s the best? Take a look at our top picks.
+                                                </p>
+                                                <button type="button" class="episodes__view">View Episode
+                                                    Details</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="about__container">
+                    <div class="about__content">
+                        <div class="about__row row" id="about">
+                            <div class="about__column column">
+                                <div class="about__circle">
+                                    <span class="about__arrow"></span>
+                                </div>
+                                <span class="about__meet">Meet your host</span>
+                                <div class="about__tittle">Jacob Paulaner</div>
+                                <p class="about__p">Jacob has a background in audio engineering, and has been podcasting
+                                    since the early days.</p>
+                                <p class="about__p">He’s here to help you level up your game by sharing everything he’s
+                                    learned along the way.</p>
+                            </div>
+                            <div class="about__img">
+                                <img src="media/img/about/img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <div class="contact__container">
+                    <div class="contact__content">
+                        <div class="contact__row row">
+                            <div class="contact__column column">
+                                <span class="contact__uppertittle">Email Newsletter</span>
+                                <div class="contact__tittle">Subscribe for updates</div>
+                            </div>
+                            <form class="contact__form form column">
+                                <input type="text" class="form__input-text" name="Name" placeholder="Name" value="">
+                                <input type="email" class="form__input-text" name="email" placeholder="Email" value="">
+                                <button type="submit" class="form__submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews">
+                <div class="rewiews__container">
+                    <div class="rewiews__content">
+                        <div class="reviews__grid">
+                            <div class="reviews__item">
+                                <div class="reviews__raiting"></div>
+                                <div class="reviews__text">I can’t recommend this podcast enough</div>
+                                <div class="reviews__name">Betty Lacey</div>
+                            </div>
+                            <div class="reviews__item">
+                                <div class="reviews__raiting"></div>
+                                <div class="reviews__text">Jacob is the best in the business</div>
+                                <div class="reviews__name">Adam Driver</div>
+                            </div>
+                            <div class="reviews__item">
+                                <div class="reviews__raiting"></div>
+                                <div class="reviews__text">A wealth of audio knowledge</div>
+                                <div class="reviews__name">Marcus Brown</div>
+                            </div>
+                            <div class="reviews__item">
+                                <div class="reviews__raiting"></div>
+                                <div class="reviews__text">Every episode is a gem!</div>
+                                <div class="reviews__name">Jessica Knowl</div>
+                            </div>
+                            <div class="reviews__item">
+                                <div class="reviews__raiting"></div>
+                                <div class="reviews__text">Whoa whoa, let me take some notes!</div>
+                                <div class="reviews__name">Scott Adams</div>
+                            </div>
+                            <div class="reviews__item">
+                                <div class="reviews__raiting"></div>
+                                <div class="reviews__text">I’ve upped my game considerably since I started listening
+                                </div>
+                                <div class="reviews__name">Steven Blast</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container row">
+                <div class="footer__column column">
+                    <div class="footer__logo logo"></div>
+                    <div class="footer__icon icon">
+                        <ul class="icon__list row">
+                            <li class="icon__item"><a href="#" class="icon__link">
+                                </a><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M16 11.3698C16.1234 12.202 15.9812 13.052 15.5937 13.7988C15.2062 14.5456 14.5931 15.1512 13.8416 15.5295C13.0901 15.9077 12.2384 16.0394 11.4077 15.9057C10.5771 15.7721 9.80971 15.3799 9.21479 14.785C8.61987 14.19 8.22768 13.4227 8.09402 12.592C7.96035 11.7613 8.09202 10.9097 8.47028 10.1582C8.84854 9.40667 9.45414 8.79356 10.2009 8.40606C10.9477 8.01856 11.7977 7.8764 12.63 7.99982C13.4789 8.1257 14.2648 8.52128 14.8716 9.12812C15.4785 9.73497 15.8741 10.5209 16 11.3698Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M17.5 6.5H17.51" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </li>
+                            <li class="icon__item"><a href="#" class="icon__link"><svg width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M23 2.9998C22.0424 3.67528 20.9821 4.19191 19.86 4.52981C19.2577 3.83732 18.4573 3.3465 17.567 3.12373C16.6767 2.90097 15.7395 2.957 14.8821 3.28426C14.0247 3.61152 13.2884 4.19421 12.773 4.95352C12.2575 5.71284 11.9877 6.61214 12 7.5298V8.52979C10.2426 8.57536 8.50127 8.18562 6.93101 7.39525C5.36074 6.60488 4.01032 5.43844 3 3.9998C3 3.9998 -1 12.9998 8 16.9998C5.94053 18.3978 3.48716 19.0987 1 18.9998C10 23.9998 21 18.9998 21 7.49979C21 7.21979 20.97 6.93981 20.92 6.66981C21.9406 5.6633 22.6608 4.39252 23 2.9998Z"
+                                            stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a></li>
+                            <li class="icon__item"><a href="#" class="icon__link">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z"
+                                            stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__menu menu">
+                    <ul class="menu__list column">
+                        <li class="menu__item"><a href="#" class="menu__link link">Home</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link link">About</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link link">Episodes</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__userful userful">
+                    <ul class="userful__list column">
+                        <li class="userful__item"><a href="#" class="userful__link link">Style Guide</a></li>
+                        <li class="userful__item"><a href="#" class="userful__link link">Instructions</a></li>
+                        <li class="userful__item"><a href="#" class="userful__link link">Changelog</a></li>
+                        <li class="userful__item"><a href="#" class="userful__link link">Credit</a></li>
+                        <li class="userful__item"><a href="#" class="userful__link link">Powered by Webflow</a></li>
+                        <li class="userful__item"><a href="#" class="userful__link link">Licenses</a></li>
+                    </ul>
+                </div>
+                <div class="footer__messengers messengers">
+                    <ul class="messengers__list row">
+                        <li class="messengers__item"><a href="#" class="messengers__link"><img
+                                    src="media/icon/footer/messenger-1.svg" alt=""></a></li>
+                        <li class="messengers__item"><a href="#" class="messengers__link"><img
+                                    src="media/icon/footer/messenger-2.svg" alt=""></a></li>
+                        <li class="messengers__item"><a href="#" class="messengers__link"><img
+                                    src="media/icon/footer/messenger-3.svg" alt=""></a></li>
+                        <li class="messengers__item"><a href="#" class="messengers__link"><img
+                                    src="media/icon/footer/messenger-4.svg" alt=""></a></li>
+                        <li class="messengers__item"><a href="#" class="messengers__link"><img
+                                    src="media/icon/footer/messenger-5.svg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="JS/script.js"></script>
+    </div>
+</body>
+
+</html>
